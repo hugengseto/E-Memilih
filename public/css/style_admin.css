@@ -1,0 +1,247 @@
+.grup-tombol {
+  margin-bottom: 12px;
+}
+
+/* Gaya default untuk perangkat dengan ukuran layar kecil */
+.row .tambah .box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row .profil .box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text-danger {
+  color: red;
+}
+
+/* Mengatur ukuran gambar di dalam tabel */
+.poster-media-pemilihan {
+  width: 100px; /* Lebar gambar */
+  height: auto; /* Tinggi otomatis untuk menjaga rasio aspek */
+  display: block; /* Menampilkan gambar sebagai blok */
+  margin: 0 auto; /* Mengatur gambar di tengah sel tabel */
+  border: 1px solid #ddd; /* Tambahkan border tipis */
+  padding: 5px; /* Tambahkan padding di sekitar gambar */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Tambahkan sedikit bayangan */
+  border-radius: 5px; /* Membulatkan sudut gambar */
+}
+
+.badge {
+  font-weight: normal !important;
+  font-size: 14px;
+}
+
+.btn {
+  margin: 3px 0px 3px 0px;
+}
+
+#poster-preview {
+  max-width: 200px; /* Lebar maksimum pratinjau gambar */
+  height: auto; /* Memastikan gambar tetap mempertahankan proporsi aspeknya */
+  display: block; /* Pratinjau gambar ditampilkan sebagai blok */
+  margin-top: 10px; /* Jarak atas antara pratinjau gambar dan input file */
+  border: 1px solid #ccc; /* Garis pinggiran untuk kontras */
+  padding: 5px; /* Padding di sekeliling pratinjau gambar */
+  box-sizing: border-box; /* Padding dan border tidak menambah lebar elemen */
+}
+
+#popup-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+
+.kandidat-block {
+  display: flex;
+  align-items: center;
+}
+
+.nomor-urut {
+  display: flex; /* Menggunakan flex untuk menyusun lingkaran dan nomor */
+  align-items: center;
+  justify-content: center;
+  width: 60px; /* Atur lebar lingkaran */
+  height: 60px; /* Atur tinggi lingkaran */
+  border-radius: 50%; /* Membuat bentuk lingkaran */
+  background-color: #3c8dbc; /* Warna latar belakang lingkaran */
+  color: #fff; /* Warna teks */
+  font-size: 1.5em; /* Ukuran teks */
+  font-weight: bold; /* Ketebalan teks */
+  margin-right: 20px; /* Jarak kanan dari lingkaran */
+}
+
+.nomor-urut span {
+  margin: 0; /* Menghilangkan margin pada span */
+}
+
+.kandidat-block img {
+  width: 250px; /* Atur lebar gambar */
+  height: auto; /* Atur tinggi gambar */
+  margin-right: 20px; /* Berikan jarak antara gambar dan teks */
+  border: 4px solid #fff; /* Border putih untuk gambar */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk gambar */
+}
+
+.kandidat-info {
+  flex: 1; /* Memanjangkan konten info kandidat */
+}
+
+.kandidatname {
+  font-size: 2.5em; /* Atur ukuran teks nama kandidat */
+  color: #333; /* Warna teks nama kandidat */
+  margin: 10px 0; /* Jarak atas dan bawah dari nama kandidat */
+}
+
+.program {
+  margin-top: 10px; /* Jarak atas dari bagian program */
+}
+
+.program h4 {
+  font-size: 1.5em; /* Ukuran teks judul program */
+  color: #3c8dbc; /* Warna teks judul program */
+  margin-bottom: 5px; /* Jarak bawah dari judul program */
+}
+
+.program p {
+  font-size: 1em; /* Ukuran teks isi program */
+  color: #333; /* Warna teks isi program */
+  margin-bottom: 10px; /* Jarak bawah dari isi program */
+}
+
+#form_wakil_kandidat {
+  display: none;
+}
+
+.tombol-crud{
+  margin-bottom: 10px;
+}
+
+#myChart{
+  width: 280px !important;
+  height: 280px !important;
+}
+
+.chart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex-direction: row;
+  margin-bottom: 3px;
+}
+
+.card-img {
+  flex: 0 0 130px; /* Membuat lebar kolom gambar lebih besar */
+  border-right: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-time {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.card-description {
+  margin: 0;
+  color: #777;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+.Mendatang {
+  background-color: #f0ad4e;
+  color: #fff;
+}
+
+.Berlangsung {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.Selesai {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+
+/* Media queries untuk perangkat dengan ukuran layar besar */
+@media (min-width: 768px) {
+  .row.tambah {
+    display: flex;
+    justify-content: center; /* Menempatkan elemen di tengah secara horizontal */
+    align-items: center; /* Menempatkan elemen di tengah secara vertikal */
+  }
+
+  .row.profil {
+    display: flex;
+    justify-content: center; /* Menempatkan elemen di tengah secara horizontal */
+    align-items: center; /* Menempatkan elemen di tengah secara vertikal */
+  }
+}
+
+/* Media query untuk layar kecil */
+@media screen and (max-width: 768px) {
+  .responsive {
+    overflow-x: auto;
+    /* Tambahkan aturan tambahan untuk tata letak atau ukuran font */
+  }
+
+  .kandidat-block {
+    flex-direction: column; /* Menata ulang elemen secara vertikal saat layar kecil */
+    text-align: center; /* Pusatkan teks dan elemen */
+  }
+
+  .nomor-urut {
+    margin-right: 0; /* Hilangkan margin kanan pada lingkaran */
+    margin-bottom: 10px; /* Tambahkan jarak bawah pada lingkaran */
+  }
+
+  .kandidat-block img {
+    width: 100%; /* Gambar mengisi lebar penuh */
+    margin-right: 0; /* Hilangkan margin kanan pada gambar */
+    margin-bottom: 20px; /* Tambahkan jarak bawah pada gambar */
+  }
+}
