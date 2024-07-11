@@ -24,4 +24,4 @@ untuk dapat menggunakan fitur whatsapp silahkan mendaftarkan/buat akun di https:
 
 ## Perlu Ditanyakan atau Diskusi
 Email: hugengseto@gmail.com
-IG: @hugengseto
+<img src="public/logos/firebase/firebase.svg" alt="Firebase Icon"  height="48"> <img src="public/logos/instagram/instagram.svg" alt="Instagram Icon"  height="48">@hugengseto
