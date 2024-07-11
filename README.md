@@ -1,4 +1,4 @@
-# Petunjutk Instalasi sistem APTATOLA
+# Petunjutk Instalasi aplikasi E-Memilih
 
 ## Persyaratan
 - PHP 8.1 atau lebih
