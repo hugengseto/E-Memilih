@@ -247,6 +247,15 @@ class KandidatController extends BaseController
             $kandidat = $this->kandidatModel->getDataKandidatById($kandidat_id);
             //hapus data kandidat
             $this->kandidatModel->where(['media_pemilihan_id' => $media['media_id'], 'kandidat_id' => $kandidat_id])->delete();
+            // pengecekan apakah poster menggunakan foto default
+            if ($kandidat['poster'] != 'default-photo-kandidat.jpg') {
+                // cek apaka ada foto lama didirektori
+                $filePath = "img/kandidat/" . $kandidat['poster'];
+                if (file_exists($filePath)) {
+                    // hapus jika ada
+                    unlink($filePath);
+                }
+            }
 
             $kandidatNama = explode(',', $kandidat['nama_kandidat']);
             if (count($kandidatNama) > 1) {

@@ -373,6 +373,16 @@ class MediaController extends BaseController
                 // baru hapus data media pemilihannya
                 $this->modelMediaPemilihan->where('media_id', $media_id)->delete();
 
+                // pengecekan apakah poster menggunakan foto default
+                if ($media['poster'] != 'vote.png') {
+                    // cek apaka ada foto lama didirektori
+                    $filePath = "img/" . $media['poster'];
+                    if (file_exists($filePath)) {
+                        // hapus jika ada
+                        unlink($filePath);
+                    }
+                }
+
                 session()->setFlashdata('alert', 'alert-danger');
                 session()->setFlashdata('message', '<b>Dihapus!</b>, media pemilihan <b>' . ucwords($media['judul_pemilihan']) . '</b> telah dihapus secara permanen.');
             } else {
