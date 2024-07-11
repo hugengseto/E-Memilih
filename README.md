@@ -14,7 +14,7 @@
 5. selanjutnya, jalankan perintah "php spark migrate". ini untuk membuat tabel-tabel pada database
 6. jalankan perintah "php spark serve" untuk menjalankan aplikasinya.
 
-## akun untuk masuk E-Memilih
+## Akun untuk masuk E-Memilih
 - username : Administrator
 - password : @Admin123
 
