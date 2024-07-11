@@ -24,10 +24,9 @@ untuk dapat menggunakan fitur whatsapp silahkan mendaftarkan/buat akun di https:
 
 ## Perlu Ditanyakan atau Diskusi
 <a href="mailto:hugengseto@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
-    </a>
-Email: hugengseto@gmail.com
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
+</a>
 
 <a href="https://www.instagram.com/hugengseto/">
       <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge"/>
-    </a>
+</a>
